@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style_updated.css">
+
+    <title>AlcidesCollections</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" />
+                <label for="theme-switch">🌙</label>
+            </div>
+    
+            <a href="#" class="logo">Alci Store</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu"><img src="img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="Imagen icono del carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Objeto</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            
+    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+    <a href="#" id="checkout-carrito" class="btn-3">Comprar</a>
+    
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    <!-- Search Bar -->
+    <div class="search-bar container">
+        <input type="text" id="search-bar" placeholder="Buscar productos..." />
+    </div>
+
+    <div class="header-content container">
+    
+            <div class="swiper myswiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium - Colection 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">$84</p>
+                                    <p class="price-2">$75</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="img/bg1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium - Colection 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">$84</p>
+                                    <p class="price-2">$75</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="img/bg2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium - Colection 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">$84</p>
+                                    <p class="price-2">$75</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="img/bg7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <section class="promos container" id="lista-1">
+        <h2>Promociones</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 1</h3>
+                    <div class="prices">
+                        <p class="price-1">$84</p>
+                        <p class="precio">$75</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="img/ph1.png" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 2</h3>
+                    <div class="prices">
+                        <p class="price-1">$84</p>
+                        <p class="precio">$75</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="img/ph2.png" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 3</h3>
+                    <div class="prices">
+                        <p class="price-1">$84</p>
+                        <p class="precio">$75</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="img/ph3.png" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 4</h3>
+                    <div class="prices">
+                        <p class="price-1">$84</p>
+                        <p class="precio">$75</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="img/ph4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Nuevos Modelos</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/ph5.png" alt="">
+                        <div class="product-txt">
+                            <h3>Auriculares Satellite AE-72002B</h3>
+                            <p>Coleccion de Auriculares unicos</p>
+                            <p class="precio">$460</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/ph7.png" alt="">
+                        <div class="product-txt">
+                            <h3>Auriculares Inalambricos MD158 TWS</h3>
+                            <p>Coleccion de Auriculares unicos</p>
+                            <p class="precio">$399</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/ph8.png" alt="">
+                        <div class="product-txt">
+                            <h3>Auricular Kolke TWS KAB-657</h3>
+                            <p>Coleccion de Auriculares unicos</p>
+                            <p class="precio">$45</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/ph9.png" alt="">
+                        <div class="product-txt">
+                            <h3>Auriculares Inalambricos FAMOO IPX8 Water</h3>
+                            <p>Coleccion de Auriculares unicos</p>
+                            <p class="precio">$950</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-3">
+        <h2>Auriculares Gamer</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/v1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Audifonos Gamer Con Luces RGB</h3>
+                            <p>Coleccion de Auriculares Gamer</p>
+                            <p class="precio">$84</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/v2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Audifonos Gamer Krypton Ad2000</h3>
+                            <p>Coleccion de Auriculares Gamer</p>
+                            <p class="precio">$84</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/v3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Audifonos Diadema Gamer Fighting GM-103</h3>
+                            <p>Coleccion de Auriculares Gamer</p>
+                            <p class="precio">$84</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="img/bg6.png" alt="">
+                        <div class="product-txt">
+                            <h3>Audifonos Headset Gamer Kioto G2000</h3>
+                            <p>Coleccion de Auriculares Gamer</p>
+                            <p class="precio">$84</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    
+    </section>
+
+    <hr>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials container">
+        <h2>Testimonios</h2>
+        <div class="swiper myswiper-3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>"Excelente servicio y productos de calidad."</p>
+                    <h4>- Cliente Satisfecho</h4>
+                </div>
+                <div class="swiper-slide">
+                    <p>"Recomendado al 100%, volvere a comprar."</p>
+                    <h4>- Comprador Feliz</h4>
+                </div>
+                <div class="swiper-slide">
+                    <p>"Variedad increíble y precios accesibles."</p>
+                    <h4>- Usuario Entusiasta</h4>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Filters Section -->
+    <section class="filters container">
+        <h2>Filtrar Productos</h2>
+        <label for="price-filter">Precio máximo:</label>
+        <input type="range" id="price-filter" min="10" max="1000" value="100" step="10">
+        <span id="price-value">$100
+            
+        </span>
+    </section>
+
+    
+    <hr>
+
+    <footer class="footer container">
+        <div class="link">
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+
+        <div class="link">
+            <h3>Lorem</h3>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos eos maiores ut fuga accusantium illo quidem deleniti officiis voluptatum ab, 
+                nam quas ad recusandae temporibus id incidunt unde accusamus labore.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script_corrected_fixed.js"></script>
+</body>
+</html>
